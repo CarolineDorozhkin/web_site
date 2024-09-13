@@ -1,0 +1,42 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #e9e9d9; /* Цвет фона веб-страницы */
+    color: #333333; /* Цвет основного текста */ 
+}
+h1 {
+    color: #72510a; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+
+li {
+    font-size: 18px; /* Вы можете задать любой нужный размер, например, 18px */
+  }
+
+p {
+    font-size: 18px; /* Вы можете задать любой нужный размер, например, 18px */
+  }
+
+mark {
+    background-color: rgb(61, 41, 4); /* Цвет фона */
+    color: rgb(236, 236, 236); /* Цвет текста */
+  }
+
+  @keyframes color-change {
+    0% {
+      color: rgb(75, 68, 61);
+    }
+  
+    50% {
+      color: rgb(41, 23, 0);
+    }
+  
+    100% {
+      color: rgb(75, 68, 61);
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
